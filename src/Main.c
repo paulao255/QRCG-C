@@ -8,6 +8,12 @@
 #include <string.h>
 
 
+/* QRCG-C version variables: */
+#define QRCG_C_FULL_VERSION  20260202 /* QRCG-C full version variable (2026/02/02). */
+#define QRCG_C_MAJOR_VERSION 2026     /* QRCG-C major version variable (2026).      */
+#define QRCG_C_MINOR_VERSION 2        /* QRCG-C minor version variable (02).        */
+#define QRCG_C_PATCH_VERSION 2        /* QRCG-C patch version variable (02).        */
+
 /* Global variables: */
 #define STANDARD_SCREEN_VALUE 200 /* Default image size. */
 #define QUIET_ZONE_MODULES      4 /* QR spec quiet zone. */
