@@ -1,12 +1,12 @@
 # QRCG-C
 
-A QRCode generator application created with C using my onw [C-Utils](https://github.com/paulao255/C-Utils) header, [QREncode](https://github.com/fukuchi/libqrencode) and [STB Image Write](https://github.com/nothings/stb) headers.
+A QRCode generator application created with C using my onw [C-Utils](https://github.com/paulao255/C-Utils) header, [ZLib](https://github.com/madler/zlib), [LibPNG](https://github.com/pnggroup/libpng), [QREncode](https://github.com/fukuchi/libqrencode) and [STB Image Write](https://github.com/nothings/stb) headers.
 
 Compatible with:
 
 - [x] Windows.
 - [x] Linux.
-- [x] Mac OS (not tested yet, if you can test it, send an e-mail to **contactpaulao\@gmail.com**).
+- [x] Mac OS (not tested yet, if you can test it, send an e-mail to **contactpaulao\@gmail.com** or send an issue).
 
 ## Dependencies
 
@@ -21,7 +21,7 @@ Compatible with:
 1. Press `Windows + R`, type `cmd` and press `Ctrl + Shift + Enter`, then open it in administrator mode.
 2. Type into **cmd** `winget install --id="Kitware.CMake" && winget install --id="MSYS2.MSYS2"`.
 3. Now after install **CMake** and **MSYS2** press `Windows + R` and type `mingw64` or `mingw32` for 32 bits, then press `Ctrl + Shift + Enter` to open it as an administrator.
-4. Now on **Mingw Shell** type `pacman -Syyu` it will probably say to **quit** after update soo you will press `y` to quit and enter in **Mingw Shell** again and type `pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-ninja mingw-w64-x86-64-libpng --needed`.
+4. Now on **Mingw Shell** type `pacman -Syyu` it will probably say to **quit** after update soo you will press `y` to quit and enter in **Mingw Shell** again and type `pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-ninja --needed`.
 5. Now you just need to **build** the project.
 
 **Linux**:
