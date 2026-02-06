@@ -1,6 +1,6 @@
 # QRCG-C
 
-A QRCode generator application created with C using my onw [C-Utils](https://github.com/paulao255/C-Utils) header, [ZLib](https://github.com/madler/zlib), [LibPNG](https://github.com/pnggroup/libpng), [QREncode](https://github.com/fukuchi/libqrencode) and [STB Image Write](https://github.com/nothings/stb) headers.
+A QRCode generator application created with C using my onw [C-Utils](https://github.com/paulao255/C-Utils) header, [QREncode](https://github.com/fukuchi/libqrencode) and [STB Image Write](https://github.com/nothings/stb) headers.
 
 Compatible with:
 

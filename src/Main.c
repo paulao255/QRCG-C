@@ -12,10 +12,10 @@
 
 
 /* QRCG-C version variables: */
-#define QRCG_C_FULL_VERSION  20260205 /* QRCG-C full version variable (2026/02/05). */
+#define QRCG_C_FULL_VERSION  20260206 /* QRCG-C full version variable (2026/02/06). */
 #define QRCG_C_MAJOR_VERSION 2026     /* QRCG-C major version variable (2026).      */
 #define QRCG_C_MINOR_VERSION 2        /* QRCG-C minor version variable (02).        */
-#define QRCG_C_PATCH_VERSION 5        /* QRCG-C patch version variable (05).        */
+#define QRCG_C_PATCH_VERSION 6        /* QRCG-C patch version variable (06).        */
 
 /* Global variables: */
 #define STANDARD_SCREEN_VALUE 200 /* Default image size. */
